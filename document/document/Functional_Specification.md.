@@ -1,0 +1,76 @@
+# Functional Specification
+_Team members_
+
+We, as a team setting up our environment to startup our group project with the following developing members
+1 Maxim Curos
+2 Sakhidod Amonkhojaev
+3 Spitz Márk
+4 Yue Yang
+The website will serve as a platform for users to browse, purchase, and download video games. It will also provide features for game developers to distribute their games.
+
+## List of Requirements
+User Registration: Users should be able to register and create an account.
+User Authentication: Users should be able to securely log in to their account.
+Game Catalog: The website should display a catalog of games available for purchase.
+Shopping Cart: Users should be able to add games to a shopping cart.
+Checkout Process: Users should be able to purchase games through a secure checkout process.
+Game Download: Users should be able to download purchased games.
+User Reviews and Ratings: Users should be able to rate and review purchased games.
+Developer Portal: Developers should be able to submit games for distribution and view sales reports.
+## UI Plan
+The user interface should be clean and intuitive. It should include the following pages:
+
+Home Page: Displays featured games and latest releases.
+Game Page: Displays detailed information about a game, including user reviews and ratings.
+Cart Page: Displays the user’s shopping cart and the checkout process.
+User Account Page: Allows users to manage their account information and view their purchased games.
+Developer Portal Page: Allows developers to submit games and view sales reports.
+
+  
+## Goal
+The goal of the system is to provide a platform where users can easily browse, purchase, and download video games, and where developers can distribute their games.
+
+## Constrains
+Design Constraints imposes limitations on the following things:
+The running environment : Microsoft Visual Studio Code.
+The operating system : Microsoft Windows 10.
+The programming language, databases, coding standards, business logic, etc.
+The programming language, HTML, CSS, PHP.
+
+# REPORTS
+•	Report Module: The login issues should include details such as username, email, game name, and time of departure.
+•	Game Details: Users can view detailed information about each game, including the type of game, release date, developer, etc.
+•	Check Availability: Users can check whether the games they are interested in are available. This could include checking whether the game is in stock or compatible with the user’s device.
+•	Register for Game: Users can select the games they are interested in and register for them. The registration function will add user information and the selected game to the database.
+•	Exit: Users can exit the website after they have completed their activities. The exit function allows users to log out based on information from the database.
+
+<H4>List Of Requirements: </H4>
+<table> 
+  <tr>
+    <th>Requirement number</th>
+    <th>Requirement title</th> 
+    <th>Requirement description</th>
+</tr>
+<tr>
+    <th>N01</th>
+    <th>Search</th>
+  <th> Users can search for games in the database by entering keywords. The search function retrieves information from the database based on the data inputted by the user.</th>
+</tr>
+<tr>
+    <th>N02</th>
+    <th>login</th>
+  <th> Users can log into the site using their username and password. The login function allows users to log in based on information from the database.</th>
+</tr>
+  <tr>
+    <th>N03</th>
+    <th>logout</th>
+  <th> Users can log out of the site after they are done with their activities. The logout function allows users to log out based on information from the database.</th>
+    <tr>
+    <th>N04</th>
+    <th>sign up </th>
+    <th> New users can create an account on the site. The sign-up function adds user information to the database.</th>
+      <tr>
+      <th>N05</th>
+    <th>Contact</th>
+  <th>the user can contact us</th>
+</tr>
